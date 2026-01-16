@@ -172,6 +172,9 @@ docker exec -it spark-master bin/spark-submit \
 | Broker 2 | `localhost:39092` | `kafka-broker-2:19092` |
 | Broker 3 | `localhost:49092` | `kafka-broker-3:19092` |
 
+
+
+
 ## 📁 Project Structure
 
 ```
