@@ -1,0 +1,4 @@
+[2025-12-24 15:03:22,491] INFO [RaftManager id=5] Node 2 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-12-24 15:03:22,767] INFO [RaftManager id=5] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2025-12-24 15:08:35,181] INFO [SnapshotGenerator id=5] Creating new KRaft snapshot file snapshot 00000000000000007239-0000000007 because we have waited at least 60 minute(s). (org.apache.kafka.image.publisher.SnapshotGenerator)
+[2025-12-24 15:08:35,411] INFO [SnapshotEmitter id=5] Successfully wrote snapshot 00000000000000007239-0000000007 (org.apache.kafka.image.publisher.SnapshotEmitter)
