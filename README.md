@@ -172,7 +172,7 @@ docker exec -it spark-master bin/spark-submit \
 | Broker 2 | `localhost:39092` | `kafka-broker-2:19092` |
 | Broker 3 | `localhost:49092` | `kafka-broker-3:19092` |
 
-
+![Broker Architecture](images/Broker.png)
 
 
 ## 📁 Project Structure
@@ -275,6 +275,8 @@ Kafka metrics exposed via JMX exporter:
 - `kafka_server_brokertopicmetrics_bytesinpersec`
 - `kafka_controller_kafkacontroller_activecontrollercount`
 - `kafka_network_requestmetrics_totaltimems`
+
+![Key Metrics](images/controller-health.png)
 
 ### Grafana Dashboards
 
